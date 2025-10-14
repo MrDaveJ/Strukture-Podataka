@@ -3,6 +3,9 @@
 #include <stdlib.h>
 
 #define MAX 60                                             // Definiranje maksimalnog broja bodova na ispitu
+#define ALOC -1                                            // Definiranje povratnih brojeva za greske
+#define FOP -2
+
 
 
 typedef struct stud {                                                    // Stvaranje strukture 
@@ -29,7 +32,7 @@ int main() {
 	s = (stud*)malloc(sizeof(stud) * br);                              // Dinamicko alociranje memorije
 	if (s == NULL) {
 		printf("Greska pri alociranju");
-		return -2;
+		return ALOC;
 	}
 
 	load(s, br);
@@ -47,7 +50,7 @@ int count() {
 	FILE* f = fopen("studenti.txt", "r");
 	if (f == NULL) {
 		printf("Greska pri otvaranju!");
-		return -1;
+		return FOP;
 	}
 
 	while (!feof(f)) { 
@@ -66,7 +69,7 @@ stud* load(stud* s, int br) {
 	FILE* f = fopen("studenti.txt", "r"); 
 	if (f == NULL) {
 		printf("Greska pri otvaranju!");
-		return -1;
+		return FOP;
 	}
 
 	for (i = 0; i < br; i++) {                                            // Ucitavanje studenata 
@@ -78,7 +81,7 @@ stud* load(stud* s, int br) {
 	return s;
 }
 
-void write(stud* s, int br) {
+void write(stud* s, int br) {                                            // Funkcija za ispis    
 	int i;
 	for (i = 0; i < br; i++) {
 		printf("\t%s %s: %d bodova -> %.2f%% \n", s[i].ime, s[i].prez, s[i].bod, s[i].rel);
