@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe1\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3B7CF92-C5AB-4CE8-8ECC-2D88A5FB3F58}|Vjezbe1\\Vjezbe1.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezbe1\\Vjezbe1\\zad1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B3B7CF92-C5AB-4CE8-8ECC-2D88A5FB3F58}|Vjezbe1\\Vjezbe1.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe1\\Vjezbe1\\zad1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3B7CF92-C5AB-4CE8-8ECC-2D88A5FB3F58}|Vjezbe1\\Vjezbe1.vcxproj|solutionrelative:Vjezbe1\\zad1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B7CF92-C5AB-4CE8-8ECC-2D88A5FB3F58}|Vjezbe1\\Vjezbe1.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezbe1\\Vjezbe1\\studenti.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B3B7CF92-C5AB-4CE8-8ECC-2D88A5FB3F58}|Vjezbe1\\Vjezbe1.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe1\\Vjezbe1\\studenti.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B3B7CF92-C5AB-4CE8-8ECC-2D88A5FB3F58}|Vjezbe1\\Vjezbe1.vcxproj|solutionrelative:Vjezbe1\\studenti.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -24,26 +24,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "zad1.c",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe1\\Vjezbe1\\zad1.c",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe1\\Vjezbe1\\zad1.c",
               "RelativeDocumentMoniker": "Vjezbe1\\zad1.c",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe1\\Vjezbe1\\zad1.c",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe1\\Vjezbe1\\zad1.c",
               "RelativeToolTip": "Vjezbe1\\zad1.c",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-07T20:37:15.756Z",
+              "WhenOpened": "2025-10-08T20:37:22.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "studenti.txt",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe1\\Vjezbe1\\studenti.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe1\\Vjezbe1\\studenti.txt",
               "RelativeDocumentMoniker": "Vjezbe1\\studenti.txt",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe1\\Vjezbe1\\studenti.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe1\\Vjezbe1\\studenti.txt",
               "RelativeToolTip": "Vjezbe1\\studenti.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-10-07T20:41:46.797Z"
+              "WhenOpened": "2025-10-14T16:08:23.818Z",
+              "EditorCaption": ""
             }
           ]
         }
