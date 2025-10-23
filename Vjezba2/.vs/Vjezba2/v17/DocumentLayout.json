@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba2\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9093C7BA-3864-4900-91ED-57B093D10D99}|Vjezba2\\Vjezba2.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezba2\\Vjezba2\\zad2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9093C7BA-3864-4900-91ED-57B093D10D99}|Vjezba2\\Vjezba2.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba2\\Vjezba2\\zad2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9093C7BA-3864-4900-91ED-57B093D10D99}|Vjezba2\\Vjezba2.vcxproj|solutionrelative:Vjezba2\\zad2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "zad2.c",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba2\\Vjezba2\\zad2.c",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba2\\Vjezba2\\zad2.c",
               "RelativeDocumentMoniker": "Vjezba2\\zad2.c",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba2\\Vjezba2\\zad2.c",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba2\\Vjezba2\\zad2.c",
               "RelativeToolTip": "Vjezba2\\zad2.c",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAAAFAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAmwMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-08T09:08:01.033Z",
               "EditorCaption": ""
