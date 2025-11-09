@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 3\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DDC15B4-9F2E-4C49-87B3-447504DD6823}|Vjezbe 3\\Vjezbe 3.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 3\\Vjezbe 3\\zad3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3DDC15B4-9F2E-4C49-87B3-447504DD6823}|Vjezbe 3\\Vjezbe 3.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 3\\Vjezbe 3\\zad3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3DDC15B4-9F2E-4C49-87B3-447504DD6823}|Vjezbe 3\\Vjezbe 3.vcxproj|solutionrelative:Vjezbe 3\\zad3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "zad3.c",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 3\\Vjezbe 3\\zad3.c",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 3\\Vjezbe 3\\zad3.c",
               "RelativeDocumentMoniker": "Vjezbe 3\\zad3.c",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 3\\Vjezbe 3\\zad3.c",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 3\\Vjezbe 3\\zad3.c",
               "RelativeToolTip": "Vjezbe 3\\zad3.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYBAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcBAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-21T16:16:16.179Z",
               "EditorCaption": ""

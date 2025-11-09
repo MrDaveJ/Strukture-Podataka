@@ -138,6 +138,7 @@ int main() {
 		}
 	} while (x != 0);
 
+	clearAll(&head);
 	printf("\nGoodbye!\n");
 	
 
@@ -278,7 +279,7 @@ pos searchPrev(char* surname, pos p) {
 
 void swapData(pos p, pos q) {
 	person temp;
-	temp.next == NULL;
+	temp.next = NULL;
 
 	strcpy(temp.surname, p->surname);             //Swapping the surnames
 	strcpy(p->surname, q->surname);
