@@ -18,7 +18,7 @@ typedef struct stack {
     pos next;
 } stack;
 
-int push(double el, pos head);          //Function that stores element to stack (FIFO)
+int push(double el, pos head);          //Function that stores element to stack (LIFO)
 int pop(pos head, char operation);      //Function that pushes elements from stack
 int solve(pos head);                    //Function that solves the postfix equation
 
@@ -65,7 +65,7 @@ int solve(pos head) {
 
     result = head->next->x;                                            //Storing the solution in a variable
 
-    head->next = NULL;                                                 //Freeing the memmory that held the solution
+    head->next = NULL;                                                 //Freeing the memory that held the solution
     free(head->next); 
 
     fclose(f);                                                         //Closing the file

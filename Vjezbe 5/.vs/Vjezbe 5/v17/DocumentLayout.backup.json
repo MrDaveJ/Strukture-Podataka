@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 5\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46E6AE93-D750-4140-9043-69FD3F6341A4}|Vjezbe 5\\Vjezbe 5.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 5\\Vjezbe 5\\zad5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{46E6AE93-D750-4140-9043-69FD3F6341A4}|Vjezbe 5\\Vjezbe 5.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 5\\Vjezbe 5\\zad5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{46E6AE93-D750-4140-9043-69FD3F6341A4}|Vjezbe 5\\Vjezbe 5.vcxproj|solutionrelative:Vjezbe 5\\zad5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46E6AE93-D750-4140-9043-69FD3F6341A4}|Vjezbe 5\\Vjezbe 5.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 5\\Vjezbe 5\\postfix.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{46E6AE93-D750-4140-9043-69FD3F6341A4}|Vjezbe 5\\Vjezbe 5.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 5\\Vjezbe 5\\postfix.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{46E6AE93-D750-4140-9043-69FD3F6341A4}|Vjezbe 5\\Vjezbe 5.vcxproj|solutionrelative:Vjezbe 5\\postfix.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "postfix.txt",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 5\\Vjezbe 5\\postfix.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 5\\Vjezbe 5\\postfix.txt",
               "RelativeDocumentMoniker": "Vjezbe 5\\postfix.txt",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 5\\Vjezbe 5\\postfix.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 5\\Vjezbe 5\\postfix.txt",
               "RelativeToolTip": "Vjezbe 5\\postfix.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "zad5.c",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 5\\Vjezbe 5\\zad5.c",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 5\\Vjezbe 5\\zad5.c",
               "RelativeDocumentMoniker": "Vjezbe 5\\zad5.c",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezbe 5\\Vjezbe 5\\zad5.c",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 5\\Vjezbe 5\\zad5.c",
               "RelativeToolTip": "Vjezbe 5\\zad5.c",
-              "ViewState": "AgIAAHEAAAAAAAAAAAASwH4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-09T17:55:54.627Z",
               "EditorCaption": ""
