@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba 4\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4F8FE1A-09FD-4F2B-AFDF-85A3C7B5DD60}|Vjezba 4\\Vjezba 4.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezba 4\\Vjezba 4\\zad4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D4F8FE1A-09FD-4F2B-AFDF-85A3C7B5DD60}|Vjezba 4\\Vjezba 4.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba 4\\Vjezba 4\\zad4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D4F8FE1A-09FD-4F2B-AFDF-85A3C7B5DD60}|Vjezba 4\\Vjezba 4.vcxproj|solutionrelative:Vjezba 4\\zad4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4F8FE1A-09FD-4F2B-AFDF-85A3C7B5DD60}|Vjezba 4\\Vjezba 4.vcxproj|C:\\Users\\david\\Desktop\\Strukture\\Vjezba 4\\Vjezba 4\\poly.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{D4F8FE1A-09FD-4F2B-AFDF-85A3C7B5DD60}|Vjezba 4\\Vjezba 4.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba 4\\Vjezba 4\\poly.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D4F8FE1A-09FD-4F2B-AFDF-85A3C7B5DD60}|Vjezba 4\\Vjezba 4.vcxproj|solutionrelative:Vjezba 4\\poly.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "zad4.c",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba 4\\Vjezba 4\\zad4.c",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba 4\\Vjezba 4\\zad4.c",
               "RelativeDocumentMoniker": "Vjezba 4\\zad4.c",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba 4\\Vjezba 4\\zad4.c",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba 4\\Vjezba 4\\zad4.c",
               "RelativeToolTip": "Vjezba 4\\zad4.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-25T13:08:46.56Z",
               "EditorCaption": ""
@@ -37,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "poly.txt",
-              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba 4\\Vjezba 4\\poly.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba 4\\Vjezba 4\\poly.txt",
               "RelativeDocumentMoniker": "Vjezba 4\\poly.txt",
-              "ToolTip": "C:\\Users\\david\\Desktop\\Strukture\\Vjezba 4\\Vjezba 4\\poly.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba 4\\Vjezba 4\\poly.txt",
               "RelativeToolTip": "Vjezba 4\\poly.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-25T15:17:06.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T15:17:06.161Z"
             }
           ]
         }
