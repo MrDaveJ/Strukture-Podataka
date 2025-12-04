@@ -18,6 +18,15 @@
     <ClCompile Include="Main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Date.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bill.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="r1.txt" />
@@ -27,5 +36,16 @@
     <Text Include="r4.txt">
       <Filter>Source Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bill.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
