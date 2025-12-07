@@ -133,6 +133,7 @@
     <Text Include="r2.txt" />
     <Text Include="r3.txt" />
     <Text Include="r4.txt" />
+    <Text Include="r5.txt" />
     <Text Include="racuni.txt" />
   </ItemGroup>
   <ItemGroup>

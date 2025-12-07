@@ -36,6 +36,9 @@
     <Text Include="r4.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="r5.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bill.h">

@@ -1,8 +1,12 @@
 #pragma once
+
+#include <stdio.h>
+#include "Date.h"
+
 #ifndef PRODUCT_H
 #define PRODUCT_H
 #define ALOC -2
-#include <stdio.h>
+
 
 typedef struct Product* PositionA;
 
@@ -11,12 +15,16 @@ typedef struct Product {
 	int num;
 	double price;
 	PositionA next;
-}Product;
+}Product; //Defining the structure
+                                        //All comments describing the functions are in Product.c
 
 struct Bill;  
 typedef struct Bill* PositionB;
 
 int addProduct(PositionB, char*, int, double);
-int writeProducts(PositionB);
-
+PositionA searchProduct(PositionB, char*);
+int searchProductDates(PositionB, char*, Date, Date);
+double writeProducts(PositionB);
+int mostSoldProduct(PositionB, Date, Date);
+int everySold(PositionB, Date, Date);
 #endif

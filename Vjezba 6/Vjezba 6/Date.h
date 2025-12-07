@@ -6,8 +6,10 @@ typedef struct Date {
 	int day;
 	int mon;
 	int year;
-}Date;
+}Date;  //Defining the structure
+                                   //All comments describing the functions are in Date.c
 
 int compareDate(Date*, Date*);
+Date input();
 
 #endif
