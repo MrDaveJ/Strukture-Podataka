@@ -1,0 +1,4 @@
+﻿  zad.c
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezbe 7\Vjezbe 7\zad.c(116,3): warning C4033: 'tree' must return a value
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezbe 7\Vjezbe 7\zad.c(128,1): warning C4715: 'tree': not all control paths return a value
+  Vjezbe 7.vcxproj -> C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezbe 7\x64\Debug\Vjezbe 7.exe

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC3C211-641F-4C29-9114-4381A29CCED7}|Vjezbe 7\\Vjezbe 7.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 7\\Vjezbe 7\\zad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CAC3C211-641F-4C29-9114-4381A29CCED7}|Vjezbe 7\\Vjezbe 7.vcxproj|solutionrelative:Vjezbe 7\\zad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zad.c",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 7\\Vjezbe 7\\zad.c",
+              "RelativeDocumentMoniker": "Vjezbe 7\\zad.c",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezbe 7\\Vjezbe 7\\zad.c",
+              "RelativeToolTip": "Vjezbe 7\\zad.c",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAJ4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-14T21:11:33.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
