@@ -1,0 +1,4 @@
+﻿  zad8_9.c
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba 8\Vjezba 8\zad8_9.c(31,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba 8\Vjezba 8\zad8_9.c(65,4): warning C4047: 'return': 'Position' differs in levels of indirection from 'int'
+  Vjezba 8.vcxproj -> C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba 8\x64\Debug\Vjezba 8.exe
