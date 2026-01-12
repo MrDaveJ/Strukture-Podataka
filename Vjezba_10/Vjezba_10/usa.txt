@@ -1,0 +1,5 @@
+Los_Angeles 3878704
+Houston 2390125
+New_York 8478072
+Pheonix 1673164
+Chicago 2721308

@@ -1,0 +1,5 @@
+Tokyo 36953600
+Yokohama 3777491
+Osaka 18873900
+Fukuoka 5453200
+Nagoya 9511730

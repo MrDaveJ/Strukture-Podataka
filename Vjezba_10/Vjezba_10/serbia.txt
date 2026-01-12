@@ -1,0 +1,5 @@
+Kragujevac 249501
+Belgrade 1681405
+Novi_Sad 368967
+Subotica 123952
+Nis 249501

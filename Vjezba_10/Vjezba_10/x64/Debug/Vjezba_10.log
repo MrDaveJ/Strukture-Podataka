@@ -1,0 +1,4 @@
+﻿  zad10.c
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(386,3): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(395,4): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
+  Vjezba_10.vcxproj -> C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\x64\Debug\Vjezba_10.exe

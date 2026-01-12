@@ -1,0 +1,5 @@
+Cologne 1073096
+Frankfurt_am_Main 759224
+Berlin 3677472
+Hamburg 1906411
+Munich 1487708

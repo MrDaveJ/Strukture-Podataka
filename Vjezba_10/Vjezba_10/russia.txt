@@ -1,0 +1,5 @@
+Saint_Petersburg 5601911
+Novosibirsk 1633595
+Moscow 13010112
+Yekaterinburg 1544376
+Kazan 1308660

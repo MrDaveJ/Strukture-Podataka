@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\zad10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\zad10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\drzave.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\drzave.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\croatia.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\croatia.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\serbia.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\serbia.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\germany.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\germany.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\russia.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\russia.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\usa.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\usa.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\japan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38786E12-E78D-4540-97B5-1C3B1273FE3C}|Vjezba_10\\Vjezba_10.vcxproj|solutionrelative:Vjezba_10\\japan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "japan.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\japan.txt",
+              "RelativeDocumentMoniker": "Vjezba_10\\japan.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\japan.txt",
+              "RelativeToolTip": "Vjezba_10\\japan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-11T16:44:25.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "usa.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\usa.txt",
+              "RelativeDocumentMoniker": "Vjezba_10\\usa.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\usa.txt",
+              "RelativeToolTip": "Vjezba_10\\usa.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-11T16:42:26.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "russia.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\russia.txt",
+              "RelativeDocumentMoniker": "Vjezba_10\\russia.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\russia.txt",
+              "RelativeToolTip": "Vjezba_10\\russia.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-11T16:40:34.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "germany.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\germany.txt",
+              "RelativeDocumentMoniker": "Vjezba_10\\germany.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\germany.txt",
+              "RelativeToolTip": "Vjezba_10\\germany.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-11T16:38:32.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "serbia.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\serbia.txt",
+              "RelativeDocumentMoniker": "Vjezba_10\\serbia.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\serbia.txt",
+              "RelativeToolTip": "Vjezba_10\\serbia.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-11T16:36:39.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "croatia.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\croatia.txt",
+              "RelativeDocumentMoniker": "Vjezba_10\\croatia.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\croatia.txt",
+              "RelativeToolTip": "Vjezba_10\\croatia.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-11T16:33:57.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "drzave.txt",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\drzave.txt",
+              "RelativeDocumentMoniker": "Vjezba_10\\drzave.txt",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\drzave.txt",
+              "RelativeToolTip": "Vjezba_10\\drzave.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-11T16:31:23.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zad10.c",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\zad10.c",
+              "RelativeDocumentMoniker": "Vjezba_10\\zad10.c",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\Strukture-Podataka\\Vjezba_10\\Vjezba_10\\zad10.c",
+              "RelativeToolTip": "Vjezba_10\\zad10.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-11T15:32:34.732Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
