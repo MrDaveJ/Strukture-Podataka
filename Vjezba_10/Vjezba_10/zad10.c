@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define TABLE_SIZE 11
 #define ALOC -1
 #define FOP -2
 
@@ -212,9 +213,9 @@ int printCityPopulation(PositionCity root, int pop) {
 */
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 //                                                                             10.b)
 
+/*
 typedef struct Country* PositionCountry;
 typedef struct City* PositionCity;
 
@@ -427,5 +428,243 @@ int printCountryCity(PositionCountry root, char* name, int pop) {
 
 	return 0;
 }
+*/
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//                                                                     11
+
+typedef struct Country* PositionCountry;
+typedef struct City* PositionCity;
+
+PositionCountry hashTable[TABLE_SIZE];
+
+typedef struct Country {
+	char name[30];
+	PositionCountry nextCountry;
+	PositionCity nextCity;
+}Country;
 
 
+typedef struct City {
+	char name[30];
+	int population;
+	PositionCity left;
+	PositionCity right;
+}City;
+
+int hash(char*); //Function for getting the index
+int clearHashTable(PositionCountry); //Cleares all country lists from the table
+
+int addCountry(PositionCountry, char*); //Adds a country to the linked list
+int clearCountries(PositionCountry);  //Cleares the linked list
+int printCountriesHash(PositionCountry);  //Writes the entire hash table with all of the countries and cities
+PositionCity addCity(PositionCity, char*, int); //Adds a city to the tree
+PositionCity clearCities(PositionCity); //Cleares the entire tree
+int printCities(PositionCity); //Writes all the entire tree
+PositionCountry findCountry(PositionCountry, char*); //Find a country with the inputed name
+int readFile(PositionCountry); //Reads the file and adds the countries and the cities
+int printCountryCity(PositionCountry, char*, int); //Searches for the country and prints the cities with population equal or higher than inputed
+int printCityPopulation(PositionCountry, int); //Prints all the cities in a country with population equal or highr than inputed
+
+int main() {
+	PositionCountry hashTab[TABLE_SIZE];
+	char name[30];
+	int pop;
+
+	for (int i = 0; i < TABLE_SIZE; i++) {
+		hashTab[i] = malloc(sizeof(Country));
+		hashTab[i]->nextCountry = NULL;
+		hashTab[i]->nextCity = NULL;
+	}
+
+	readFile(hashTab);
+	printCountriesHash(hashTab);
+
+	printf("\nInput name of country: \n");
+	scanf("%s", name);
+	printf("Input population: \n");
+	scanf(" %d", &pop);
+	printCountryCity(hashTab, name, pop);
+
+	clearHashTable(hashTab);
+	for (int i = 0; i < TABLE_SIZE; i++) {
+		free(hashTab[i]);
+	}
+
+	return 0;
+}
+
+int hash(char *name) {
+	int sum = 0;
+
+	for (int i = 0; i < 5 && name[i] != '\0'; i++) {
+		sum += (int)name[i];
+	}
+
+	return sum % TABLE_SIZE;
+}
+int clearHashTable(PositionCountry table[]) {
+	for (int i = 0; i < TABLE_SIZE; i++) {
+		clearCountries(table[i]);
+	}
+	return 0;
+}
+
+int addCountry(PositionCountry head, char* name) {
+	PositionCountry q;
+
+	while (head->nextCountry != NULL && strcmp(head->nextCountry->name, name) < 0) {  //Moving the pointer to a position where the inputed name is alphabetically lower than the next one
+		head = head->nextCountry;
+	}
+
+	q = (PositionCountry)malloc(sizeof(Country));                         //Allocation of the inputed country
+	if (!q) {
+		printf("Country Allocation Error!");
+		return ALOC;
+	}
+
+	strcpy(q->name, name);
+	q->nextCountry = head->nextCountry;
+	head->nextCountry = q;
+	q->nextCity = NULL;
+
+	return 0;
+}
+int clearCountries(PositionCountry head) {
+	PositionCountry curr = head->nextCountry;
+	PositionCountry temp;
+	while (curr != NULL) {               //Deleting the list from the first node to the last node
+		temp = curr;
+		curr = curr->nextCountry;
+
+		temp->nextCity = clearCities(temp->nextCity);
+		free(temp);
+	}
+
+	head->nextCountry = NULL;
+	return 0;
+}
+int printCountriesHash(PositionCountry table[]) {
+	for (int i = 0; i < TABLE_SIZE; i++) {                      //Moves the index
+		PositionCountry curr = table[i]->nextCountry;           //Actual country
+
+		printf("Index %d:\n", i);                              //Writing the index in which the countries are stored
+		while (curr != NULL) {
+			printf("%s: \n", curr->name);
+			printCities(curr->nextCity);
+			curr = curr->nextCountry;
+		}
+	}
+	return 0;
+}
+PositionCity addCity(PositionCity root, char* name, int pop) {
+	PositionCity new;
+	if (root == NULL) {                                         //Allocation of the leaf
+		new = (PositionCity)malloc(sizeof(City));
+		if (!new) {
+			printf("City Allocation Error!");
+			return NULL;
+		}
+
+		strcpy(new->name, name);
+		new->population = pop;
+		new->left = NULL;
+		new->right = NULL;
+		return new;
+	}
+	else {
+		if (root->population > pop) {                   //If the inputed populationme is lower move left, otherwise move right
+			root->left = addCity(root->left, name, pop);
+		}
+		else {
+			root->right = addCity(root->right, name, pop);
+		}
+	}
+	return root;
+}
+PositionCity clearCities(PositionCity root) {
+	if (root != NULL) {                        //Deleting the tree inorder
+		clearCities(root->left);
+		root->left = NULL;
+		clearCities(root->right);
+		root->right = NULL;
+		free(root);
+	}
+	return NULL;
+}
+int printCities(PositionCity root) {
+	if (root == NULL) {
+		return 0;
+	}
+	printCities(root->left);           //Writing all the cities from the left
+	printf("\t%s %d\n", root->name, root->population);
+	printCities(root->right);          //Writing all the cities from the right
+	return 0;
+}
+PositionCountry findCountry(PositionCountry table[], char* name) {
+	int index = hash(name);                                             //Finding the index of the country
+	PositionCountry curr = table[index]->nextCountry;
+
+	while (curr) {                                                      //Finding the country in the linked list
+		if (strcmp(curr->name, name) == 0)
+			return curr;
+		curr = curr->nextCountry;
+	}
+	return NULL;
+}
+int readFile(PositionCountry table[]) {
+	char name[30];
+	char path[256];
+	int pop;
+	FILE* f = fopen("drzave.txt", "r");                  //Opening the main file "drzave.txt"
+	if (!f) {
+		printf("File Opening Error!");
+		return FOP;
+	}
+
+	while (fscanf(f, "%s %s", name, path) == 2) {           //Scaning the name of the country and the file with all of the cities of the country
+		int index = hash(name);
+		addCountry(table[index], name);
+		PositionCountry temp = findCountry(table, name);    //Finding the position of the inputed country
+		FILE* tempf = fopen(path, "r");
+		if (!tempf) {
+			printf("File Opening Error!");
+			return FOP;
+		}
+		while (fscanf(tempf, "%s %d", name, &pop) == 2) {  //Opening the scanned file and adding the scanned cities
+			temp->nextCity = addCity(temp->nextCity, name, pop);
+		}
+		fclose(tempf);                                     //Closing the file with the cities
+	}
+
+	fclose(f);                                             //Closing the file with the countries
+	return 0;
+}
+int printCountryCity(PositionCountry table[], char* name, int pop) {
+	PositionCountry con = findCountry(table, name);     //Finding the position of the country
+	if (!con) {
+		printf("Country not found!");
+		return 0;
+	}
+
+	PositionCity city = con->nextCity;                //Checking if the country tree is empty
+	if (!city) {
+		printf("No cities in country!");
+		return 0;
+	}
+	printCityPopulation(city, pop);                   //Printing the cities
+	return 0;
+}
+int printCityPopulation(PositionCity root, int pop) {
+	if (!root)
+		return 0;
+
+	if (root->population >= pop) {                                //If the inputed population is lower than the root, check left branches
+		printCityPopulation(root->left, pop);
+		printf("\t%s: %d\n", root->name, root->population);
+		printCityPopulation(root->right, pop);
+	}
+	else
+		printCityPopulation(root->right, pop);                   //If the inputed population is higher than the root, check and print the right branches
+
+	return 0;
+}

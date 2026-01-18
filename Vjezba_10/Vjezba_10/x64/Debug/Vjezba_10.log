@@ -1,4 +1,15 @@
 ﻿  zad10.c
-C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(386,3): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
-C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(395,4): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(478,11): warning C4047: 'function': 'PositionCountry' differs in levels of indirection from 'PositionCountry [11]'
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(478,11): warning C4024: 'readFile': different types for formal and actual parameter 1
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(479,21): warning C4047: 'function': 'PositionCountry' differs in levels of indirection from 'PositionCountry [11]'
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(479,21): warning C4024: 'printCountriesHash': different types for formal and actual parameter 1
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(485,19): warning C4047: 'function': 'PositionCountry' differs in levels of indirection from 'PositionCountry [11]'
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(485,19): warning C4024: 'printCountryCity': different types for formal and actual parameter 1
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(487,2): warning C4013: 'clearHashTable' undefined; assuming extern returning int
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(546,40): warning C4028: formal parameter 1 different from declaration
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(603,45): warning C4028: formal parameter 1 different from declaration
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(614,30): warning C4028: formal parameter 1 different from declaration
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(642,38): warning C4028: formal parameter 1 different from declaration
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(654,22): warning C4133: 'function': incompatible types - from 'PositionCity' to 'PositionCountry'
+C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\Vjezba_10\zad10.c(657,38): warning C4028: formal parameter 1 different from declaration
   Vjezba_10.vcxproj -> C:\Users\david\Documents\GitHub\Strukture-Podataka\Vjezba_10\x64\Debug\Vjezba_10.exe
